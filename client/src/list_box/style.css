@@ -1,0 +1,29 @@
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list_box{
+    width: 80rem;
+    z-index: 4;
+    background: #fff5f2;
+    border: 2px solid #44231a;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.inputbox{
+    display: flex;
+    justify-content: space-around;
+}
+.inputbox input{
+    width: 75%;
+    border-radius: 0.75rem;
+    padding: 1rem;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
